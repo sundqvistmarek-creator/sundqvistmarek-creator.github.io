@@ -12,7 +12,45 @@
     <main>
         <section>
             <h2>What is vim?</h2>
-            <p>Vim is used to write HTML, CSS, and JavaScript.</p>
+            <p>Vim is used to write:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            <p> To open vim you write: vim "html file name"</p>
+            <hr>
+            <p>Here are some tips and tricks</p>
+                <ul>
+                    <li>To escape vim press esc and then press
+                        <kbd>colon q</kbd></li>
+                    <li>To highlight a line press esc and then write
+                        <pre>shift v</pre></li>
+                        <ul>
+                            <li>Highlight can also be used to copy paste in
+                                the terminal</li>
+                            <li>To do this, after you highlight a line,
+                                you write: <strong>j</strong> for every line after
+                                 that you want to highlight</li>
+                            <li>Then press <strong>y</strong> to copy the 
+                            highlighted text</li>
+                            <li>To paste text, press: <strong>p</strong> on the
+                                line you want to paste your text in</li>
+                        </ul>
+                        <li>Write: <strong>syntax on</strong> to give your 
+                            code colors
+                </ul>
+                <h3>Important!</h3>
+                <p>This is the code for a minimal html file in vim:</p>
+                <pre>&lt!DOCTYPE html&gt
+            &lthtml lang="en"&gt
+                &lthead&gt
+                    &lttitle&gtHello World!&lt/title&gt
+                &lt/head&gt
+                &ltbody&gt
+                    &ltp&gtThis is my first web page.&lt/p&gt
+                &lt/body&gt
+            &lt/html&gt</pre>
         </section>
     </main>
     <footer>
